@@ -1,5 +1,6 @@
 // ✅ USE RELATIVE PATH
-import { artists } from "@/artists";
+import { artists } from "../../../artists";
+
 
 
 

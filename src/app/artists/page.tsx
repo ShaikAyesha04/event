@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { artists as predefinedArtists } from "@/data/artists"; // Make sure this path is correct
+import { artists as predefinedArtists } from "@/artists"; // Make sure this path is correct
 
 export default function ArtistsPage() {
   const [artistList, setArtistList] = useState<any[]>([]);
