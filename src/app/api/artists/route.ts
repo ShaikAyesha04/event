@@ -1,5 +1,6 @@
 // ✅ USE RELATIVE PATH
-import { artists } from "../../data/artists";
+import { artists } from "@/artists";
+
 
 
 
