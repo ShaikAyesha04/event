@@ -17,7 +17,7 @@ export default function ArtistsPage() {
       ...artist,
       categories: [artist.category], // Make string to array
       feeRange: artist.price,
-      languages: artist.languages || [],
+      
     }));
 
     const combined = [...normalizedPredefined, ...newArtists];

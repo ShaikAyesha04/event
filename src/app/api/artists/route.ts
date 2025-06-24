@@ -13,7 +13,8 @@ export async function GET() {
     ...a,
     categories: [a.category],     // Convert string to array
     feeRange: a.price,            // Match your frontend keys
-    languages: a.languages || [], // Add empty array if not present
+    
+ // Add empty array if not present
   }));
 
   return Response.json(normalized);
